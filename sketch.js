@@ -14,7 +14,7 @@ var s = function(p) { // p could be any variable name
     };
 
     p.draw = function() {
-        p.background(0);
+        p.background('red');
         p.fill(255);
         p.rect(x, y, 25, 50);
         step();
@@ -36,7 +36,7 @@ var r = function(p) { // p could be any variable name
     };
 
     p.draw = function() {
-        p.background(0);
+        p.background('green');
         p.fill(255);
         p.rect(x, y, 25, 50);
         step();
@@ -53,12 +53,12 @@ var t = function(p) { // p could be any variable name
     var y = 0;
 
     p.setup = function() {
-        p.createCanvas(400, 400).position(860, 20);
+        p.createCanvas(400, 400).position(860, 440);
         p.frameRate();
     };
 
     p.draw = function() {
-        p.background(0);
+        p.background('blue');
         p.fill(255);
         p.rect(x, y, 25, 50);
         step();
@@ -75,12 +75,12 @@ var v = function(p) { // p could be any variable name
     var y = 0;
 
     p.setup = function() {
-        p.createCanvas(400, 400).position(1280, 20);
+        p.createCanvas(400, 400).position(1280, 440);
         p.frameRate();
     };
 
     p.draw = function() {
-        p.background(0);
+        p.background('yellow');
         p.fill(255);
         p.rect(x, y, 25, 50);
         step();
